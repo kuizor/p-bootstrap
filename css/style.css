@@ -1,0 +1,67 @@
+.content{
+    background-image: url(../img/background.jpg);
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    right: 2%;
+    bottom: 1%;
+}
+.menu{
+    position: absolute;
+    background-color: #3E3939;
+    top: 0%;
+    left: 80%;
+    right: 0%;
+    bottom: 0%;
+
+}
+.content2{
+    background-color: gray;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 20%;
+    bottom: 0%;
+}
+body{
+	background-color: black;
+}
+.carousel-inner > .item.next,
+  .carousel-inner > .item.active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+  .carousel-inner > .item.prev,
+  .carousel-inner > .item.active.left {
+    left: 0;
+    -webkit-transform: translate3d(0,-100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+
+.carousel{
+    height: 100%;
+}
+.carousel-inner {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.carousel-indicatorsed {
+    transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    /* bottom: 10px; */
+    left: 50%;
+    top: -150px;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
