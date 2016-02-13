@@ -82,8 +82,18 @@ body{
     width: 20px;
     height: 20px;
 }
+.inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 645px;
+}
 .fondo {
     background-image: url(../img/background_2.jpg);
-    background-repeat: no-repeat;
-    background-size: 1000px;
+    width: 100%;
+    height: 645px;
+}
+.fondo2 {
+    background-image: url(../img/background.jpg);
+    width: 100%;
+    height: 645px;
 }
