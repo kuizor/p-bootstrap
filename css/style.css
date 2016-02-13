@@ -69,14 +69,16 @@ body{
 
 .carousel-indicators {
     transform: rotate(90deg);
-    left: 71%;
-    top: -150px;
+    left: 870px;
+    top: 50px;
 }
 
 .carousel-indicators li {
     display: inline-block;
     width: 20px;
     height: 20px;
+    text-align: -webkit-right;
+    transform: rotate(270deg);
 }
 .carousel-indicators .active {
     width: 20px;
@@ -166,6 +168,20 @@ body{
     width: 40%;
     height: 110%;
 }
+#luis {
+    position: absolute;
+    top: -15%;
+    left: 23%;
+    width: 60%;
+    height: 110%;
+}
+#roman {
+    position: absolute;
+    top: -15%;
+    left: 3%;
+    width: 90%;
+    height: 110%;
+}
 .nombre {
     position: absolute;
     background-color: rgba(124, 183, 234, 0.89);
@@ -191,4 +207,8 @@ body{
     color: black;
     border: solid;
     border-color: gray;
+}
+.enlace {
+    color: white;
+    text-decoration: inherit;
 }
