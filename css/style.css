@@ -1,5 +1,5 @@
 .content{
-    background-image: url(../img/background.jpg);
+    /*background-image: url(../img/background.jpg);*/
     position: absolute;
     top: 1%;
     left: 2%;
@@ -16,7 +16,7 @@
 
 }
 .content2{
-    background-color: gray;
+    /*background-color: gray;*/
     position: absolute;
     top: 0%;
     left: 0%;
@@ -85,11 +85,11 @@ body{
     height: 20px;
 }
 .fondo {
-    width: 100%;
-    background-repeat: 2;
+    background-image: url(../img/background_2.jpg);
 }
 .fondo2 {
-    width: 100%;
+    /*width: 100%;*/
+    background-image: url(../img/background.jpg);
 }
 .inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
@@ -211,4 +211,10 @@ body{
 .enlace {
     color: white;
     text-decoration: inherit;
+}
+.enlace:hover {
+    color: white;
+}
+#demo:hover {
+        visibility: show;
 }
